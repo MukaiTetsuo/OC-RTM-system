@@ -57,11 +57,11 @@ while running do
             gpu2.set(x2, y2, "　　")
             gpu2.set(x2, y2, "進行")
         elseif newValue2 == 2 then
-            gpu2.setForeground(0xFFFF00)
+            gpu2.setForeground(0xF58220)
             gpu2.set(x2, y2, "　　")
             gpu2.set(x2, y2, "警戒")
         elseif newValue2 == 1 then
-            gpu2.setForeground(0xFFFF00)
+            gpu2.setForeground(0xFFC800)
             gpu2.set(x2, y2, "　　")
             gpu2.set(x2, y2, "注意")
         else
@@ -71,5 +71,5 @@ while running do
         end
         oldValue2 = newValue2
     end
-    os.sleep(0.2)
+    os.sleep(0.5)
 end
